@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Return: 1 after printing point
+ *Return: 0 after printing point
  */
 int main(void)
 {

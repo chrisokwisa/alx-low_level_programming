@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Return: 0 after printing point
+ *My printf task
+ *Return: 1 after printing point
  */
 int main(void)
 {

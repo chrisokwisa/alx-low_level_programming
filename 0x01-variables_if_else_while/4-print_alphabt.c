@@ -13,7 +13,7 @@ int main(void)
 	}
 	putchar('\n');
 
-    return 0;
+    return (0);
 }
 
 #include <stdio.h>
@@ -28,7 +28,7 @@ int main(void)
 	}
 	putchar('\n');
 
-    return 0;
+    return (0);
 }
 
 int main(void)
@@ -43,5 +43,6 @@ int main(void)
 	}
 	putchar('\n');
 
-    return 0;
+    return (0);
 }
+

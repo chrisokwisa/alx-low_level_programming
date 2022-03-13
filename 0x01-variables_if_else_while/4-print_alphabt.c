@@ -2,22 +2,27 @@
 /**
  *main - Entry point
  *
- *Return: 0 if success
+ *Return: Always 0 (Success)
  */
 
 int main(void)
 
-{ 
-char ch = 'a';
-while(ch <= 'z')
 {
-if (ch != 'e' && ch != 'q')
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet**)
 {
-putchar(ch);
-}
-ch++;
-}
-putchar('\n');
-return (0);
+if (alphabet == 'q')
+continue;
+
+else if (alphabet == 'e')
+continue;
+
+putchar(alphabet);
 }
 
+putchar('\n');
+
+return (0);
+
+}

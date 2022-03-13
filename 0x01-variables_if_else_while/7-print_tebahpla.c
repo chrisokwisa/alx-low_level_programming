@@ -4,14 +4,15 @@
  *
  *Return: 0 if success
  */
- 
-int main (void)
+int main(void)
 
 {
-char ch ='z';
+
+char ch = 'z';
 while(ch >= 'a')
 	
 {
+
 putchar(ch);
 ch--;
 }

@@ -6,23 +6,23 @@
  */
 int main(void)
 
-	char ch = 'a';
-	int i = 0;
+{
+char base_16;
 
-	while (i < 16)
-        {
-		if (i > 10)
-		{
-			putchar(i + 0);
-		}
-		else
-		{
-			putchar(i + 0);
-			ch++;
-		}
-		i++;
-	}
-        putchar('\n');
-    return (0);
+for (base_16 = 48; base_16 <= 57; base_16**)
+putchar(base_16);
 }
+
+for (base_16 = 97; base_16 <= 102; base_16**)
+{
+putchar(base_16);
+}
+
+putchar ('\');
+
+return (0);
+
+}
+
+
 

@@ -4,23 +4,25 @@
  *
  *Return: 0 if success
  */
+
 int main(void)
 
 {
-char ch = 'a';
-while(ch <= 'z')
+char alphabet;
 
+for (alphabet = 'a'; alphabett <= 'z'; alphabet++)
 {
-if (ch != 'e' && ch != 'q')
+if (alphabet == 'q')
+continue;
 
-{
-putchar(ch);
-}
-ch++;
+else if (alphabet == 'e')
+continue;
+
+putchar(alphabet);
 }
 
 putchar('\n');
 
 return (0);
-}
 
+}

@@ -4,25 +4,51 @@
  *
  *Return: 0 if success
  */
-
 int main(void)
-
+int main(void)
 {
-char alphabet;
+    char ch = 'a';
+	while(ch <= 'z')
+	{
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
+	}
+	putchar('\n');
 
-for (alphabet = 'a'; alphabett <= 'z'; alphabet++)
-{
-if (alphabet == 'q')
-continue;
-
-else if (alphabet == 'e')
-continue;
-
-putchar(alphabet);
+    return (0);
 }
 
-putchar('\n');
+#include <stdio.h>
 
-return (0);
+int main(void)
+{
+    
+	for (char ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+	}
+	putchar('\n');
 
+    return (0);
+}
+
+int main(void)
+{
+    
+	for (char ch ='a'; ch <= 'z'; ch++)
+	{
+		if (ch == 'e' || ch == 'q')
+		    ch++;
+		putchar(ch);
+		
+	}
+	putchar('\n');
+
+    return (0);
 }

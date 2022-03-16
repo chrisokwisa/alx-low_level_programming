@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: 0 if success
+ * Return: nothing, return void
  */
 
 int main(void)
@@ -21,4 +21,3 @@ _putchar('\n');
 
 return (0);
 }
-

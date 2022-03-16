@@ -1,14 +1,28 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * add -prints add two numbers
- *@i: print int i
- *@k: print int k
- * Return: Always 0.
- */
-
-int add(int i, int k)
+ *  * print_alphabet_x10 - print alphabet
+ *   *
+ *    * Return: Always 0.
+ *     */
+void print_alphabet_x10(void)
 {
-return (i + k);
+	int alphabet;
+	int count;
+
+
+	count = 0;
+	while (count < 10)
+	{
+		for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+		{
+			_putchar(alphabet);
+		}
+
+		count++;
+		_putchar('\n');
+	}
+
+
 }
+

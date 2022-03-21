@@ -1,1 +1,1 @@
-My readme on low level of programming
+My readme on pointers, arrays amd strings

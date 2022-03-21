@@ -1,20 +1,13 @@
 #include "main.h"
 
 /**
-*main - function that prints to an int as a parameter updates value to 98.
-* followed by a new line \n
+ * function that takes pointer - 98 by reset_to_98
+ * @n: integer pointer
  * Return: Always 0.
  */
-void reset_to_98(int *n);
-
+void reset_to 98(int *n);
 {
-	int n = INT_MAX / n = INT_MIN
-
-	n = 402;
-	n = -4096;
-	printf("Address of var variable: %d\n", &var);
-	reset_to_98(&n);
-	return (0);
-
+	*n = 98;
 }
+
 

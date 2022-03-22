@@ -7,7 +7,7 @@
  * Return: void meaning it's correct
  */
 
-void puts2(char*str)
+void puts2(char *str)
 {
 int a;
 
@@ -20,4 +20,3 @@ _putchar (str[a]);
 _putchar ('\n');
 }
 
- 

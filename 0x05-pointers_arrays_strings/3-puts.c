@@ -5,6 +5,7 @@
  *
  * Return: void meaning the answer is correct
  */
+
 void _puts(char *str)
 {
 char *c;

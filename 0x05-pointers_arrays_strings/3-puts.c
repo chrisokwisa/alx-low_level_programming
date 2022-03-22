@@ -2,12 +2,18 @@
 
 /**
  * _puts - Prints a string to stdout.
+ *
  * @str: The string to be printed.
  */
+
 void _puts(char *str)
 {
-	while (*str)
-		_putchar(*str++);
+char *c;
+int m;
 
-	_putchar('\n');
+c = str;
+
+for (m = 0; c[m]; m++)
+{
+_putchar('\n');
 }

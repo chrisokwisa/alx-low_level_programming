@@ -4,7 +4,7 @@
  * puts_half - prints half of a string
  * @str: A pointer to an int that will be changed
  *
- * Return: void
+ * Return: void meaning the answer is correct
  */
 
 void puts_half(char *str)

@@ -5,11 +5,7 @@
  * @src: pointer to the function that points to the string that will be changed
  * @dest: pointer to the string thatwill be changed too
  * Return: dest
- */
-
-char *_strcat(char *dest, char *src)
-{
-int i, j;
+ nt i, j;
 
 i = 0;
 while (dest[i] != '\0')

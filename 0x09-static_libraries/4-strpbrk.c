@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
   * _strpbrk - located the first occurence in S if any bytes in accept
   * @s: the string we look for occurrences in

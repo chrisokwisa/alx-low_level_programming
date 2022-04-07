@@ -111,8 +111,8 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	}
 
 	prod--;
-  
-  	while (zeroes--)
+
+	while (zeroes--)
 	{
 		*prod = '0';
 		prod--;
@@ -196,8 +196,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-  
-  	if (*(argv[1]) == '0')
+
+	if (*(argv[1]) == '0')
 		argv[1] = iterate_zeroes(argv[1]);
 	if (*(argv[2]) == '0')
 		argv[2] = iterate_zeroes(argv[2]);
@@ -223,8 +223,8 @@ int main(int argc, char *argv[])
 			putchar(final_prod[index]);
 	}
 	putchar('\n');
-  
-  	free(next_prod);
+
+	free(next_prod);
 	free(final_prod);
 
 	return (0);

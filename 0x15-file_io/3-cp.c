@@ -106,7 +106,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
-    
+
 int main(int argc, char *argv[])
 {
 	int from, to, r, w;
@@ -140,7 +140,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
- 		r = read(from, buffer, 1024);
+		r = read(from, buffer, 1024);
 		to = open(argv[2], O_WRONLY | O_APPEND);
 
 	} while (r > 0);
@@ -151,25 +151,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 

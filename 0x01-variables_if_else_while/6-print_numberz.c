@@ -5,14 +5,13 @@
  *Return: 0 if success
  */
 int main(void)
-
-{  
-for (int i = 0; i <= 9; i++)
 {
-putchar (i + '0');
-}
-putchar ('\n');
-return (0);
-}
+	int num;
 
+	for (num = 0; num < 10; num++)
+		_putchar((num + 10) + '0');
 
+	_putchar("\n");
+
+	return (0);
+}

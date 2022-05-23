@@ -1,27 +1,33 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main -Entry point
+ *
+ *Return: Always 0 if success
+ */
+int main(void)
 {
-    int a, b, c;
-    
-	for (int i = 0; i <= 9; i++)
-	{
-	    for (int j = i + 1; j <= 9; j++)
-	    {
-	        for (int k = j + 1; k <= 9; k++)
-	        {
-	            putchar(i + '0');
-	            putchar(j + '0');
-	            putchar(k + '0');
-	            if (((i * 100) + (j * 10) + k) < 789)
-	            {
-	                putchar(',');
-                    putchar(' ');
+	int digit1, digit2, digit3;
 
-	            }
-	        }
-	    }
+	for (digit1 = 0; digit1 < 8; digit1++)
+	{
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
+		{
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
+
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+
+				   putchar(',');
+				   putchar(' ');
+			}
+		}
 	}
-	putchar('\n');
-    return (0);
+		putchar('\n');
+
+		return (0);
 }

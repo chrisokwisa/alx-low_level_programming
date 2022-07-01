@@ -4,7 +4,7 @@
 #include "../hash_tables.h"
 
 /**
- * main - check the code for Best School students.
+ * main - check the code for
  *
  * return: Alwayas EXIT_SUCCESS
  */

@@ -34,7 +34,7 @@ typedef struct skiplist_s
 	size_t index;
 	struct skiplist_s *next;
 	struct skiplist_s *express;
-} skipllist_t;
+} skiplist_t;
 
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t, int value);
